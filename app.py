@@ -1,3 +1,10 @@
+"""
+
+
+
+
+"""
+
 from flask import Flask, render_template, url_for, request, redirect
 from apiquery import APIQuery 
 
@@ -17,7 +24,6 @@ def home():
     else:
 
         return render_template("index.html")
-
 
 @app.route("/results/<query>/<category>", methods=["GET"])
 def results(query, category):
