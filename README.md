@@ -1,2 +1,1 @@
-# AckNews
-## The News Search Engine
+# AckNews: The News Search Engine
