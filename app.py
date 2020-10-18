@@ -11,7 +11,7 @@ Copyright (c) Akli Amrous
 from flask import Flask, render_template, url_for, request, redirect
 from apiquery import APIQuery 
 
-news = APIQuery('6868852668184abea077fa547303028a')
+news = APIQuery('')
 app = Flask(__name__)
 
 @app.route('/', methods=["POST", "GET"])
