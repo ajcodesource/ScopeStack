@@ -20,12 +20,14 @@ def home():
         try:
             query = request.form['query']  
             category = request.form['category']
-
+            if(query  == ""):
+                return redirect(url_for("failed"))
+            return redirect(url_for("results",query=query, category=category ))
+            
             # The user must fill all fields or else the app cannot work
         except Exception as e: 
-            print(e)
-            return "<h1> You were missing some fields </h1>"
-        return redirect(url_for("results",query=query, category=category ))
+            return redirect(url_for("failed"))
+        
     else:
 
         return render_template("index.html")
@@ -34,11 +36,20 @@ def home():
 def results(query, category):
     results = news.search(query, category) # Perform the API call with the query info
     if(results == []):
-        return "<h1> Sorry, no articles were found with these search terms </h1>"
-        return "HELLO"
+
+        return redirect(url_for("notfound"))
     else:
         return f"<h1> {results[0]['title']}</h1>"
 
+
+@app.route("/failed", methods=["GET"])
+def failed():
+    return render_template("failed.html")
+
+
+@app.route("/notfound", methods=["GET"])
+def notfound():
+    return render_template("notfound.html")
 
 if __name__ == '__main__':
     app.run()

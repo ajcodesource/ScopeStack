@@ -6,10 +6,7 @@ Description: This is a simple wrapper for the
 News API allowing for a one call request
 
 """
-
-
 from newsapi import NewsApiClient
-
 
 class APIQuery(object):
 
