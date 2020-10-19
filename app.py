@@ -11,8 +11,12 @@ Copyright (c) Akli Amrous
 from flask import Flask, render_template, url_for, request, redirect
 from apiquery import APIQuery 
 
+<<<<<<< HEAD
 
 news = APIQuery('6868852668184abea077fa547303028a')
+=======
+news = APIQuery('')
+>>>>>>> 05fcc5d779ecfdb98116662d75b86b911d57dba5
 app = Flask(__name__)
 app.secret_key="akliamrous"
 
