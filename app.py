@@ -4,7 +4,7 @@ Author: Akli Amrous
 Description: This is a flask server that allows
 ease of use for the News API and dynamic rendering
 
-Copyright (c) Akli Amrous
+Copyright (c) Akli Amrous 2020
 
 """
 

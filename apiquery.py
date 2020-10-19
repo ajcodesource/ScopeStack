@@ -1,7 +1,7 @@
 """
 File Name: apiquery.py
 Author: Akli Amrous
-Copyright (c) Akli Amrous
+Copyright (c) Akli Amrous 2020
 Description: This is a simple wrapper for the 
 News API allowing for a one call request
 
