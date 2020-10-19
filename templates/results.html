@@ -19,6 +19,8 @@
     <img src="{{ url_for('static', filename='img/New Piskel-1.png (1).png') }}" alt="logo" style="display: block;
         margin: 0 auto;" width="150" height="100">
         <br>
+        <h2 style= "text-align: center;"> {{data[1]}} Result(s) Found!</h2>
+        <br>
         <div class="card-columns">
             {% for i in range(data[1]) %}
             
@@ -40,7 +42,7 @@
         
             
         </div>
-        
+        <br>
         
         <div class="return-form">
         
