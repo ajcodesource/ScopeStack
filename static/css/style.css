@@ -8,3 +8,17 @@
     display: block;
     margin: 0 auto;
 }
+
+.card-section {
+    max-width: 160px;
+    height: auto;
+    border: 1px solid #a2a2a2;
+    text-align: center;
+    margin: 10px;
+  }
+
+  .parent-card {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
