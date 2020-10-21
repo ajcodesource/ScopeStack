@@ -6,7 +6,7 @@ http://www.akli.news/
 
 ## Description
 <p align="center">
-  <img width="250" height="250" src="images/homescreen.PNG">
+  <img src="images/homescreen.PNG">
 </p>
 
 ## Link to Web Page
