@@ -26,4 +26,7 @@ Flask (Python), Heroku (Deployment), HTML, CSS, JavaScript, and the NewsAPI: htt
 ## Link to Web Page
 http://www.akli.news/
 
+If link doesn't work or you are accessing this after 10/20/2021, use the following link:
+https://ack-news.herokuapp.com
+
 *This application was developed for the Capital One Software Engineering Summit Interview*
