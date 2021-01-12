@@ -12,7 +12,7 @@ from flask import Flask, render_template, url_for, request, redirect
 from apiquery import APIQuery 
 
 
-news = APIQuery('78b9d599c4f94f8fa3afb1a5458928d6')
+news = APIQuery('57053a3f5c8646a69e0d5e8c2ca5744d')
 app = Flask(__name__)
 app.secret_key="akliamrous"
 
