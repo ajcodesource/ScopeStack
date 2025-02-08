@@ -1,4 +1,4 @@
-# AkliNews: The News Search Engine
+# ScopeStack: The News Search Engine
 <p align="center">
   <img width="460" height="300" src="/New Piskel-1.png (1).png">
 </p>
@@ -8,7 +8,7 @@
   <img src="images/homescreen.PNG">
 </p>
 
-AkliNews is a simple search engine for headlines from all around the world.
+ScopeStack is a simple search engine for headlines from all around the world.
 Users have the ability to search for headlines from three categories: Entertainment, Technology, and Sports
 
 
@@ -24,9 +24,7 @@ Flask (Python), Heroku (Deployment), HTML, CSS, JavaScript, and the NewsAPI: htt
 
 
 ## Link to Web Page
-http://www.akli.news/
-
-If link doesn't work or you are accessing this after 10/20/2021, use the following link:
-https://ack-news.herokuapp.com
+Due to the discontinuation of the Heroku Free Tier, ScopeStack (formerly AkliNews) is currently unavailable.
+ScopeStack will be relaunched (TBD)
 
 *This application was developed for the Capital One Software Engineering Summit Interview*
